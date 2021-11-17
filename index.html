@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - PORTFOLIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        .clearfix {
+            clear: both;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(204, 204, 204);
+        }
+
+        .menubar h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+            padding-top: 10px;
+
+        }
+
+        .menubar .logo {
+            float: left;
+            color: Black;
+        }
+
+        .menubar ul.menu {
+            list-style: none;
+            float: right;
+        }
+
+        .menubar ul.menu li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .menubar ul.menu li a {
+            text-decoration: none;
+            color: #333;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .menubar ul.menu li a:hover {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0px;
+        }
+
+        .menubar {
+            height: 50px;
+            background: #fff;
+            width: 100%;
+            box-shadow: 0 0 10px #f1f1ff;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+
+        }
+
+        .header {
+            width: 100%;
+            background: url('https://cdn.wallpapersafari.com/96/80/lPrMn7.png') no-repeat;
+            height: 450px;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .header_area {
+            padding-top: 150px;
+            width: 660px;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        .header_area h1 {
+            margin: 0;
+            font-size: 80px;
+            font-weight: normal;
+            color: #01164e;
+        }
+
+        .header_area h3 {
+            padding-top: 20px;
+            font-size: 30px;
+            color: rgb(44, 43, 43);
+        }
+
+        .info1 {
+            width: 100%;
+            height: 320px;
+
+        }
+
+        .info1_area {
+            color: #333;
+        }
+
+        .info1_area img {
+            margin-top: 23px;
+            float: left;
+        }
+
+        .info1_area p {
+            margin: 0;
+        }
+
+        .info1_text {
+            float: left;
+            width: 500px;
+            text-align: center;
+            margin-left: 70px;
+            margin-top: 70px;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+        }
+
+        .History_text {
+            float: center;
+            margin-top: px;
+            text-align: center;
+            color: rgb(88, 88, 88);
+        }
+
+        .info2_text {
+            float: left;
+            width: 500px;
+            text-align: left;
+            margin-left: 70px;
+            margin-top: 70px;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+        }
+        .link {
+            float: left;
+            width: 500px;
+            text-align: center;
+            margin-left: 70px;
+            margin-top: 70px;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+        }
+        .link1 {
+            float: left;
+            width: 500px;
+            text-align: center;
+            margin-right: 70px;
+            margin-top: 70px;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+        }
+
+        .info2 {
+            width: 100%;
+            height: 200px;
+         
+        }
+
+        .info3 {
+            width: 100%;
+            height: 400px;
+           
+        }
+
+        .info4 {
+            width: 100%;
+            height: 600px;
+           
+        }
+
+        .info4_area img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        .info4_area p {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="menubar">
+        <div class="container">
+            <div class="logo">
+                <h1>E - PORTFOLIO</h1>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100010015510992">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/phoo_chakrit/?hl=en">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://github.com/BIOPHARM101">github</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header_area">
+                <h1>INTRODUCTION</h1>
+                <h3>Chakrit Tangpanupong</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="info1">
+        <div class="container">
+            <div class="info1_area">
+                <img src="/img/PHOO.jpg" width="350" height="300">
+                <div class="info1_text">
+                    <p>ชื่อ ชาคริต ตั้งภาณุพงศ์ (ภู)<br>
+                        ปัจจุบัน ศึกษาอยู่ที่โรงเรียนเทพศิรินทร์ ม.6 ห้องGifted<br>
+                        <br>
+                        WEBPAGE นี้ทำขึ้นมาเพื่อทดสอบความสามารถตัวเองและเพื่อฝึกฝน
+                        ข้อมูลที่บันทึกอยู่ในเว็บจะเป็นการรวบรวมผลงาน และ ความชอบส่วนตัว
+                        ช่องทางการติดต่อซื่งสามารถClickเข้าไปดูได้ครับตามปุ่มต่างๆได้เลยครับ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="History_text">
+        <h1>ประวัติการศึกษา</h1>
+    </div>
+
+    <section class="info2">
+        <div class="container">
+            <div class="info1_area">
+
+                <div class="info2_text">
+                    <p>2010 - 2015 : โรงเรียนกรพิทักษ์ศึกษา (ป.1-6)</p>
+                </div>
+                <img src="/img/korn.png" width="200" height="150">
+            </div>
+        </div>
+    </section>
+
+    <section class="info2">
+        <div class="container">
+            <div class="info1_area">
+                <div class="info2_text">
+                    <p>2016-2018 : โรงเรียนกรพิทักษ์ศึกษา (ม.1-3)</p>
+                </div>
+                <img src="/img/korn.png" width="200" height="150">
+            </div>
+        </div>
+    </section>
+
+    <section class="info2">
+        <div class="container">
+            <div class="info1_area">
+                <div class="info2_text">
+                    <p>2019-2021 : โรงเรียนเทพศิรินทร์ (ม.4-6)</p>
+                </div>
+                <img src="/img/Debsirin.png" width="200" height="150">
+            </div>
+        </div>
+    </section>
+
+    <div class="History_text">
+        <h1>ผลงานที่เคยทำ</h1>
+    </div>
+
+    <section class="info3">
+        <div class="container">
+            <div class="info1_area">
+                <img src="/img/GAME.png" width="390" height="300">
+                <div class="link">
+                    <h4>เกมที่ผมได้ศึกษาและเริ่มปฏิบัติจริง<br>จากการศึกษาด้วยตนเองจากแหล่งที่มาต่างๆบนโลกInternet ได้รับการรับรองจากทาง BorntoDev</h4>
+                    <p>ถ้าสนใจรูปแบบเกมและรายละเอียด</p>
+                    <a href="https://biopharm101.github.io/GAME001/"> กดเลย</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info3">
+        <div class="container">
+            <div class="info1_area">
+                <div class="link1">
+                    <h4>Web onepage ที่ผมได้ศึกษาและเริ่มปฏิบัติจริง<br>จากการศึกษาด้วยตนเองจากแหล่งที่มาต่างๆบนโลกInternet ได้รับการรับรองจากทาง BorntoDev</h4>
+                    <p>สามารถเข้าไปดูเว็บได้ที่</p>
+                    <a href="https://biopharm101.github.io/HTML-ONE-PAGE/">กดเลย</a>
+                </div>
+                <img src="/img/logitech.png" width="390" height="300">
+            </div>
+        </div>
+    </section>
+
+    <section class="info3">
+        <div class="container">
+            <div class="info1_area">
+                <img src="/img/Django.png" width="390" height="300">
+                <div class="link">
+                    <h4>เว็บส่วนback end โดยการศึกษารูปแบบของDjango และได้ปฏิบัติจริงจากการศึกษาด้วยตนเองบนโลกInternet ได้รับการรับรองจากทาง BorntoDev</h4>
+                    <p>สามารถเข้าดูCodeส่วนต่างๆได้ในgithubด้านล่างนี้เลย</p>
+                    <a href="https://github.com/BIOPHARM101/WEB-MAZE-GAME">กดเลย</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="History_text">
+        <h1>CERTIFICATES</h1>
+    </div>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/Born1.png" width="400" height="500">
+                <p>ได้รับการรับรอง Game Development with Unity จากทาง BorntoDev</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/Born2.png" width="400" height="500">
+                <p>ได้รับการรับรอง Django from Zero จากทาง BorntoDev</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/born3.png" width="400" height="500">
+                <p>ได้รับการรับรอง Fundamental Web Dev with HTML5 & CSS3 จากทาง BorntoDev</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/Python.png" width="400" height="500">
+                <p>ได้รับการรับรอง Intro to Programming with Python จากทาง Skooldio</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/SQL.png" width="400" height="500">
+                <p>ได้รับการรับรอง Essential SQL for Everyone จากทาง BorntoDev</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/MUSC.png" width="400" height="500">
+                <p>ได้เข้าร่วม Debsirin Science and Mathematics Camp 2020 จากทาง มหาวิทยาลัยมหิดล</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/pysic.png" width="400" height="500">
+                <p>ได้เข้าร่วมนำเสนอผลงานแบบ E-POSTER สาขาฟิสิกส์ กิจกรรมแข่งขันโครงงานระดับเครือข่ายของโครงการห้องเรียนพิเศษวิทย์ - คณิต</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/pysic1.png" width="400" height="500">
+                <p>นำเสนอโครงงานสาขาฟิสิกส์ เรื่อง การประดิษฐ์บ้านสัตว์เลี้ยงหล่อเย็น ในกิจกรรมของโครงการห้องเรียนพิเศษวิทย์ - คณิต</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/kmi1.png" width="400" height="500">
+                <p>ได้เข้าร่วมกิจกรรม SCHOOL OF ENGINEERING KMITL กลุ่ม วิศวกรรมหุ่มยนต์และปัญญาประดิษฐ์</p>
+            </div>
+        </div>
+    </section>
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/kmi2.png" width="400" height="500">
+                <p>ได้เข้าร่วมกิจกรรม SCHOOL OF ENGINEERING KMITL กลุ่ม วิศวกรรมไฟฟ้า</p>
+            </div>
+        </div>
+    </section>
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/kmi3.png" width="400" height="500">
+                <p>ได้เข้าร่วมกิจกรรม SCHOOL OF ENGINEERING KMITL กลุ่ม วิศวกรรมแมคคาทรอนิกส์และออโตเมชั่น</p>
+            </div>
+        </div>
+    </section>
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/kmi4.png" width="400" height="500">
+                <p>ได้เข้าร่วมกิจกรรม SCHOOL OF ENGINEERING KMITL กลุ่ม วิศวกรรมอิเล็กทรอนิกส์</p>
+            </div>
+        </div>
+    </section>
+    <section class="info4">
+        <div class="container">
+            <div class="info4_area">
+                <img src="/img/Science.png" width="400" height="500">
+                <p>ได้เข้าร่วมกิจกรรม Debsirin Science & Mathematic Camp 2020</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
